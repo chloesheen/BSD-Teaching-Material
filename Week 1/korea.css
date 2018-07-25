@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Viga|Tajawal');
+
+h1 {
+	font-family: 'Viga', cursive;
+	font-size: 80px;
+	text-align: center;
+}
+
+body {
+	color: black;
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	font-family: 'Tajawal', sans-serif;
+	font-size: 25px;
+}
+
+img {
+	 border: 8px dashed #7c799a;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	 padding: 8px;
+	width: 900px;
+}
+
+button{
+	font-family: 'Viga', cursive;
+	font-size: 30px;
+	text-align: center;
+	padding: 6px;
+	color: white;
+	background-color: #07967e;
+}

@@ -1,0 +1,10 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.buttonContainer {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+}

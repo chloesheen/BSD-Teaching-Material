@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<link rel="stylesheet" type="text/css" href="brushtool.css"/>
+		</head>
+		<body>
+
+			 <canvas id="canvas" width=800 height=600></canvas>
+			<div class="buttonContainer">
+
+	Tool: <select id="toolkit">
+						<option>Brush</option>
+					<option>Eraser</option>
+					<option>Line</option>
+					<option>Rainbow</option>
+				</select>
+			</div>
+
+	Color: <input type="color" onchange="changeColor(this)"/>
+
+
+	Size: <input type="number" value="1"  min="1" onchange="changeWidth(this)"/>
+
+			<script type="text/javascript" src="brushtool.js"></script>
+		</body>
+</html>
